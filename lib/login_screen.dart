@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:siginui/widgets/gradient_button.dart';
+import 'package:siginui/widgets/login_field.dart';
 import 'package:siginui/widgets/social_button.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -43,7 +45,17 @@ class LoginScreen extends StatelessWidget {
             ),
             const SizedBox(
               height: 15,
-            )
+            ),
+            const LoginField(
+              hintText: 'Email',
+            ),
+            const SizedBox(height:15),
+            const LoginField(
+              hintText: 'Password',
+            ),
+            const SizedBox(height: 20),
+            const GradientButton(),
+            const SizedBox(height: 30),
           ]),
         ),
       ),
