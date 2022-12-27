@@ -1,6 +1,6 @@
 # siginui
 
-A new Flutter project.
+A new Flutter project. It creates a login and signin page
 
 ## Getting Started
 
